@@ -1,10 +1,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Target, Eye, Award, Users } from "lucide-react";
 import heroImage from "@/assets/hero-about.jpg";
-
 export default function About() {
-  return (
-    <div>
+  return <div>
       {/* Hero Section */}
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
@@ -58,7 +56,9 @@ export default function About() {
               </CardContent>
             </Card>
 
-            <Card className="animate-slide-up hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border-2 hover:border-primary group" style={{ animationDelay: "100ms" }}>
+            <Card className="animate-slide-up hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border-2 hover:border-primary group" style={{
+            animationDelay: "100ms"
+          }}>
               <CardContent className="p-8 text-center">
                 <div className="mb-4 p-4 bg-primary/10 rounded-full w-fit mx-auto group-hover:bg-primary group-hover:scale-125 group-hover:rotate-6 transition-all duration-500">
                   <Eye className="w-10 h-10 text-primary group-hover:text-primary-foreground transition-colors" />
@@ -70,7 +70,9 @@ export default function About() {
               </CardContent>
             </Card>
 
-            <Card className="animate-slide-up hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border-2 hover:border-primary group" style={{ animationDelay: "200ms" }}>
+            <Card className="animate-slide-up hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 border-2 hover:border-primary group" style={{
+            animationDelay: "200ms"
+          }}>
               <CardContent className="p-8 text-center">
                 <div className="mb-4 p-4 bg-primary/10 rounded-full w-fit mx-auto group-hover:bg-primary group-hover:scale-125 group-hover:rotate-6 transition-all duration-500">
                   <Award className="w-10 h-10 text-primary group-hover:text-primary-foreground transition-colors" />
@@ -147,7 +149,7 @@ export default function About() {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 bg-gradient-to-r from-primary via-primary/90 to-secondary text-white scroll-animate">
+      <section className="py-20 bg-black-300 text-white scroll-animate bg-[#73b4cd]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <Users className="w-16 h-16 mx-auto mb-6 text-white animate-float" />
@@ -158,6 +160,5 @@ export default function About() {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 }
