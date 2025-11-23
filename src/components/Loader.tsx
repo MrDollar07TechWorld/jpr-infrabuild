@@ -14,8 +14,8 @@ export const Loader = () => {
         <div className="mb-6 animate-slide-up">
           <img src={logo} alt="JPR INFRAWORKERS" className="w-48 h-48 mx-auto object-contain" loading="eager" />
         </div>
-        <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground tracking-wider animate-slide-up">
-          JPR INFRAWORKs
+        <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground tracking-wider animate-silde-up">
+          JPR INFRAWORKS
         </h1>
         <div className="mt-8 flex justify-center gap-2">
           <div className="w-2 h-2 bg-secondary rounded-full animate-bounce" style={{
